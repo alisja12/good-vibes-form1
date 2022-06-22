@@ -1,0 +1,112 @@
+/* global style */
+html, body {
+  background-color: rgb(132, 194, 245);
+  width: 100%;
+  height: 100%;
+font-size: 16px;
+font-family: sans-serif;
+}
+
+
+.form-wrapper{
+  display: block;
+  width: 70%;
+  max-width: 800px;
+  height: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+  white-space: nowrap;
+  background-color: aliceblue;
+  margin: 0 auto  15px;
+}
+
+.subtitle{
+  margin: 20px auto;
+  font-size: 135%;
+  font-weight: 500;
+  width:max-content;
+  max-width: 100%;
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  width: max-content;
+  max-width: 70%;
+  margin: 40px auto;
+  font-size: 300%;
+}
+
+.label-container{
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.label-container label, .label-container span{
+  box-sizing: border-box;
+  padding: 5px ;
+  margin: 10px 5px 10px 10px;
+  display: block;
+}
+
+ .input-container{
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin-left: -4px;
+  }
+
+  .input-container input, .input-container textarea{
+    display: inline;
+    width: 80%;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px 10px 10px 5px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+  }
+
+  .input-container select {
+    width: 80%;
+    max-width: 150px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px 10px 10px 5px;
+    border: 1px solid #c0c0c0;
+  }
+
+  .radio-input-element input,
+  .checkbox-input-element input {
+    width: max-content;
+    height: max-content;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  .radio-input-element:first-child input,
+.checkbox-input-element:first-child input {
+  margin-top: 10px;
+}
+
+.input-container textarea {
+  height: auto;
+  text-align: left;
+  margin-top: 50px;
+   
+}
+.radio-input-element input,
+.checkbox-input-element input {
+  width: max-content;
+  height: max-content;
+  margin: 5px;
+  padding: 0;
+}
